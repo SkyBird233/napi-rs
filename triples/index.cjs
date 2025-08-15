@@ -227,6 +227,22 @@ module.exports.platformArchTriples = {
         abi: 'musl',
       },
     ],
+    loong64: [
+      {
+        triple: 'loongarch64-unknown-linux-gnu',
+        platformArchABI: 'linux-loong64-gnu',
+        platform: 'linux',
+        arch: 'loong64',
+        abi: 'gnu',
+      },
+      {
+        triple: 'loongarch64-unknown-linux-musl',
+        platformArchABI: 'linux-loong64-musl',
+        platform: 'linux',
+        arch: 'loong64',
+        abi: 'musl',
+      },
+    ],
     mips: [
       {
         triple: 'mips-unknown-linux-gnu',
